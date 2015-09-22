@@ -1,14 +1,6 @@
 django-new-marana
 =======================
 
-.. image:: https://requires.io/github/pydanny/cookiecutter-django/requirements.svg?branch=master
-     :target: https://requires.io/github/pydanny/cookiecutter-django/requirements/?branch=master
-     :alt: Requirements Status
-
-.. image:: https://travis-ci.org/pydanny/cookiecutter-django.svg?branch=master
-     :target: https://travis-ci.org/pydanny/cookiecutter-django?branch=master
-     :alt: Build Status
-
 
 A Cookiecutter_ template for Django for new marañas. Made for creating landing page and REST apis for mobile and web applications.
 
@@ -94,5 +86,7 @@ For Readers of Two Scoops of Django 1.8
 You may notice that some elements of this project do not exactly match what we describe in chapter 3. The reason for that is this project, amongst other things, serves as a test bed for trying out new ideas and concepts. Sometimes they work, sometimes they don't, but the end result is that it won't necessarily match precisely what is described in the book I co-authored.
 
 
-## Contributing
+Contributing
+--------------------------------------------
+
 Want a new feature or find a bug? Submit a Pull Request!

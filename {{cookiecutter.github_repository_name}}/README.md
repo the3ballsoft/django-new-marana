@@ -1,6 +1,5 @@
 
 #{{cookiecutter.github_repository_name}}
-[![Build Status](https://travis-ci.org/{{cookiecutter.github_username}}/{{cookiecutter.github_repository_name}}.svg?branch=master)](https://travis-ci.org/{{cookiecutter.github_username}}/{{cookiecutter.github_repository_name}})
 
 
 # Prerequisites 
