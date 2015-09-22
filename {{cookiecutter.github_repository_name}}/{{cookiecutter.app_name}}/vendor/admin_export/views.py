@@ -10,6 +10,7 @@ from report_utils.mixins import GetFieldsMixin, DataExportMixin
 from report_utils.model_introspection import get_relation_fields_from_model
 
 HTML_TEMPLATE = r"""
+{% raw %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,6 +29,7 @@ HTML_TEMPLATE = r"""
     </table>
 </body>
 </html>
+{% endraw %}
 """
 
 
