@@ -1,17 +1,8 @@
 {
-    "project_name": "project_name",
-    "repo_name": "{{ cookiecutter.project_name|replace(' ', '_') }}",
-    "author_name": "Your Name",
-    "email": "Your email",
-    "description": "A short description of the project.",
-    "domain_name": "example.com",
-    "version": "0.1.0",
-    "timezone": "UTC",
-    "now": "2015/01/13",
-    "year": "{{ cookiecutter.now[:4] }}",
-    "use_whitenoise": "y",
-    "use_celery": "n",
-    "use_maildump": "n",
-    "use_sentry": "n",
-    "windows": "n"
+    "github_repository_name": "project_name",
+    "app_name": "app_name",
+    "author_name" : "Your Name",
+    "email": "the3ballsoft@gmail.com",
+    "description": "It is a new maraña project",
+    "github_username": "The owner of the repository. Either your github username or organization name."
 }

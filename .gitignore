@@ -19,14 +19,39 @@
 # sftp configuration file
 sftp-config.json
 
-# Generated files
-*.log
-*.pot
+# Basics
+*.py[cod]
 *.pyc
-.idea
-_build
+__pycache__
 
-# Project Specific Stuff
-local_settings.py
-repo_name
-my_test_project/*
+# Logs
+*.log
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+htmlcov
+
+# Translations
+*.mo
+*.pot
+
+# Pycharm
+.idea
+
+# Vim
+
+*~
+*.swp
+*.swo
+
+# npm
+node_modules/
+
+# Compass
+.sass-cache
+
+# virtual environments
+.env
