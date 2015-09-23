@@ -15,7 +15,7 @@ Features
 * Token_ authentication
 * Twitter Bootstrap_ v4.0.0 - alpha_
 * Comes with custom user model ready to go.
-* Django admin flat-theme_.
+* Django admin flat-theme_
 * Simple export_ tables in django admin (xls, json. html).
 * Optimized development and production settings
 * Easy integration with Webfaction 
