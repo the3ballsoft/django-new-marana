@@ -182,8 +182,8 @@ ROOT_URLCONF = 'config.urls'
 # Custom user app defaults
 # Select the correct user model
 AUTH_USER_MODEL = 'users.User'
-#LOGIN_REDIRECT_URL = 'users:redirect'
-LOGIN_URL = 'account_login'
+LOGIN_REDIRECT_URL = '/api/v1/'
+LOGIN_URL = '/api-auth/'
 
 # LOGGING CONFIGURATION
 # ------------------------------------------------------------------------------
