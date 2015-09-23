@@ -17,17 +17,16 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-Create the database:
 
-```
 Initialize the git repository
 
-```
+```bash
 git init
 git remote add origin git@github.com:{{cookiecutter.github_username}}/{{cookiecutter.github_repository_name}}.git
 ```
 
 Migrate, create a superuser, and run the server:
+
 ```bash
 python {{cookiecutter.app_name}}/manage.py migrate
 python {{cookiecutter.app_name}}/manage.py createsuperuser
