@@ -1,8 +1,7 @@
 {
-    "github_repository_name": "project_name",
-    "app_name": "app_name",
+    "github_repository_name": "repo_name",
+    "app_name": "app_name (django project name)",
     "author_name" : "Your Name",
     "email": "the3ballsoft@gmail.com",
     "description": "It is a new maraña project",
-    "github_username": "The owner of the repository. Either your github username or organization name."
 }
