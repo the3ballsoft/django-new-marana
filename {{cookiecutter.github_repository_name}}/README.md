@@ -10,6 +10,8 @@ Create and activate a virtualenv:
 
 ```bash
 virtualenv env --no-site-packages --distribute -p /usr/local/bin/python3
+or
+pyvenv env
 source env/bin/activate
 ```
 Install dependencies:

@@ -16,7 +16,6 @@ djangorestframework==3.2.3
 djangorestframework-filters==0.4.0
 enum-compat==0.0.2
 html5lib==0.9999999
-jdcal==1.0
 openpyxl==2.2.6
 six==1.9.0
 sqlparse==0.1.16
