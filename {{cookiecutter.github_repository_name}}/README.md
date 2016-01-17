@@ -35,3 +35,9 @@ python {{cookiecutter.app_name}}/manage.py createsuperuser
 python {{cookiecutter.app_name}}/manage.py runserver
 ```
 
+Generate API docs:
+
+```bash
+npm install apidoc -g
+python {{cookiecutter.app_name}}/manage.py apidoc 
+```

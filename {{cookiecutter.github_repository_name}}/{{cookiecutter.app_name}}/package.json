@@ -1,0 +1,14 @@
+{
+  "name": "{{cookiecutter.github_repository_name}}",
+  "version": "0.0.1",
+  "description": "API RESTful",
+  "apidoc": {
+    "version": "1.0.0",
+    "name" : "Django new maranha API Docs",
+    "title": "Django new maranha API docs",
+    "url" : "http://localhost:8000/api/v1/",
+    "footer" : {
+        "title" : "the3ballsoft - 2016"
+    }
+  }
+}
