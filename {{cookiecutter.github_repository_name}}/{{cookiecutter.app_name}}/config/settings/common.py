@@ -49,6 +49,7 @@ DJANGO_APPS = (
 
 THIRD_PARTY_APPS = (
     'vendor.admin_export',       # basic reports (xls) in django admin
+    'authentication',            # token auth
     'rest_framework',            # utilities for rest apis
     'rest_framework.authtoken',  # token authentication
     'corsheaders',               # (Cross-Origin Resource Sharing) headers to responses.
