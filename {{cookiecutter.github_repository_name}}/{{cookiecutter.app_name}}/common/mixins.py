@@ -2,6 +2,7 @@
 from __future__ import unicode_literals, absolute_import
 
 from rest_framework import status
+from rest_framework.response import Response
 
 
 class DestroyModelMixin(object):
