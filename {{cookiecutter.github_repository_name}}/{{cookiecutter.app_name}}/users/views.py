@@ -34,6 +34,14 @@ class UserViewSet(mixins.CreateModelMixin,
             self.queryset = User.objects.all()
         return super(UserViewSet, self).list(request, *args, **kwargs)
 
+    def retrieve(self, request, pk=None):
+        """
+        If provided 'pk' is "me" then return the current user.
+        """
+        if request.user and pk == 'me':
+            return Response(UserSerializer(request.user).data)
+        return super(UserViewSet, self).retrieve(request, pk)
+
     def create(self, request, *args, **kwargs):
         self.serializer_class = CreateUserSerializer
         self.permission_classes = (IsAuthenticated,)
