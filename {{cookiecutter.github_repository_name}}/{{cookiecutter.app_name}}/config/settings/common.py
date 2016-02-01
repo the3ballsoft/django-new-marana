@@ -239,6 +239,8 @@ LOGGING = {
 # Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
 
+CORS_ORIGIN_ALLOW_ALL = True
+
 # Django Rest Framework
 REST_FRAMEWORK = {
     'PAGINATE_BY': 30,
