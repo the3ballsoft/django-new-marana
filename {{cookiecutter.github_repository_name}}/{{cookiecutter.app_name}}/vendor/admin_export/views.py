@@ -102,7 +102,7 @@ class AdminExport(GetFieldsMixin, ExtDataExportMixin, TemplateView):
             return self.list_to_xlsx_response(data_list, header=fields)
 
     def get(self, request, *args, **kwargs):
-        if request.REQUEST.get("related"):  # Dispatch to the other view
+        if request.GET.get("related"):  # Dispatch to the other view
             return AdminExportRelated.as_view()(request=self.request)
         return super(AdminExport, self).get(request, *args, **kwargs)
 
