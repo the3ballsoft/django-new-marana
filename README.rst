@@ -46,7 +46,7 @@ Now run it against this repo::
 You'll be prompted for some questions, answer them, then it will create a Django project for you.
 
 
-**Warning**: After this point, change 'Genesis Guerrero', 'the3ballsoft@gmail.com', etc to your own information.
+**Warning**: After this point, change 'Your name', 'the3ballsoft@gmail.com', etc to your own information.
 
 It prompts you for questions. Answer them::
 
@@ -61,7 +61,6 @@ It prompts you for questions. Answer them::
     author_name [Your Name]: Antinogeno Martinez
     email [Your email]: antinogeno@yahoo.es
     description [A short description of the project.]: A reddit clone.
-    github_username  The owner of the repository. Either your github username or organization name.]: antinogeno12
 
 
 Enter the project and take a look around::
